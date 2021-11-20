@@ -6,18 +6,30 @@ html,
 body {
   margin: 0;
   padding: 0;
+  min-width: 100vh;
   height: 100%;
-  max-width: 100%;
   font-size: 10px;
   font-family: Poppins, Helvetica, sans-serif;
   background-color: white;
   color: #48674d;
   text-align: center;
+  
 }
 
 .bandeau {
+  width: 100%;
+  margin: 0 50px 0 50px;
   display: flex;
-  align-items: center;
+ 
+
+}
+
+.logo {
+  background-color: pink;
+  height: 100%;
+ 
+
+
 }
 
 h1 {
@@ -25,7 +37,9 @@ h1 {
   font-size: 3rem;
   font-weight: 600;
   width: 100%;
+ 
 }
+  
 
 .navigation {
   background-color: #7da896;
@@ -39,11 +53,7 @@ h1 {
   margin-left: 100px;
 }
 
-.logo {
-  background-color: pink;
-  display: flex;
-  margin-left: 100px;
-}
+
 
 li {
   display: inline;
@@ -61,7 +71,7 @@ li {
 }
 
 .footer {
-  display: flex;
+  display: inline;
   flex-direction: column;
   align-items: center;
   font-size: 1.6rem;
@@ -77,7 +87,13 @@ footer img {
 }
 
 .btn-rs {
-  display: flex;
+  /* display: inline-block; */
   width: 10%;
   height: auto;
+  text-decoration: none;
+}
+
+
+.copyright{
+  font-size: 1rem;
 }
